@@ -1,0 +1,560 @@
+[ 2021-12-11T11:06:07+08:00 ] 127.0.0.1 /Index/__PUBLIC__/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000173s ]
+
+[ 2021-12-11T11:07:48+08:00 ] 127.0.0.1 /Index/__PUBLIC__/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000170s ]
+
+[ 2021-12-11T12:20:36+08:00 ] 127.0.0.1 /Index/__PUBLIC__/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000215s ]
+
+[ 2021-12-11T13:05:41+08:00 ] 127.0.0.1 /Index/__PUBLIC__/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000309s ]
+
+[ 2021-12-11T13:12:06+08:00 ] 127.0.0.1 /Index/__PUBLIC__/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000217s ]
+
+[ 2021-12-11T13:13:01+08:00 ] 127.0.0.1 /Index/__PUBLIC__/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000232s ]
+
+[ 2021-12-11T13:18:40+08:00 ] 127.0.0.1 /Index/__PUBLIC__/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000187s ]
+
+[ 2021-12-11T13:18:59+08:00 ] 127.0.0.1 /Index/__PUBLIC__/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000194s ]
+
+[ 2021-12-11T13:19:06+08:00 ] 127.0.0.1 /Index/__PUBLIC__/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000202s ]
+
+[ 2021-12-11T13:19:16+08:00 ] 127.0.0.1 /Index/__PUBLIC__/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000198s ]
+
+[ 2021-12-11T13:19:38+08:00 ] 127.0.0.1 /Index/__PUBLIC__/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000259s ]
+
+[ 2021-12-11T13:20:11+08:00 ] 127.0.0.1 /Index/__PUBLIC__/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000166s ]
+
+[ 2021-12-11T13:20:20+08:00 ] 127.0.0.1 /Index/__PUBLIC__/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000185s ]
+
+[ 2021-12-11T13:20:29+08:00 ] 127.0.0.1 /Index/__PUBLIC__/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000275s ]
+
+[ 2021-12-11T13:20:36+08:00 ] 127.0.0.1 /Index/__PUBLIC__/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000166s ]
+
+[ 2021-12-11T13:20:53+08:00 ] 127.0.0.1 /Index/__PUBLIC__/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000193s ]
+
+[ 2021-12-11T13:21:34+08:00 ] 127.0.0.1 /Index/__PUBLIC__/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000230s ]
+
+[ 2021-12-11T13:22:24+08:00 ] 127.0.0.1 /Index/__PUBLIC__/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000195s ]
+
+[ 2021-12-11T13:59:40+08:00 ] 127.0.0.1 /Index/__PUBLIC__/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000204s ]
+
+[ 2021-12-11T13:59:51+08:00 ] 127.0.0.1 /Index/__PUBLIC__/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000189s ]
+
+[ 2021-12-11T14:00:07+08:00 ] 127.0.0.1 /Index/__PUBLIC__/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000169s ]
+
+[ 2021-12-11T14:00:17+08:00 ] 127.0.0.1 /Index/__PUBLIC__/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000179s ]
+
+[ 2021-12-11T14:00:25+08:00 ] 127.0.0.1 /Index/__PUBLIC__/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000169s ]
+
+[ 2021-12-11T14:01:44+08:00 ] 127.0.0.1 /Index/__PUBLIC__/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000324s ]
+
+[ 2021-12-11T14:03:01+08:00 ] 127.0.0.1 /Index/__PUBLIC__/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000176s ]
+
+[ 2021-12-11T14:04:12+08:00 ] 127.0.0.1 /Index/__PUBLIC__/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000211s ]
+
+[ 2021-12-11T14:05:17+08:00 ] 127.0.0.1 /Index/__PUBLIC__/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000176s ]
+
+[ 2021-12-11T14:05:50+08:00 ] 127.0.0.1 /Index/__PUBLIC__/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000189s ]
+
+[ 2021-12-11T14:07:15+08:00 ] 127.0.0.1 /Index/__PUBLIC__/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000275s ]
+
+[ 2021-12-11T14:08:10+08:00 ] 127.0.0.1 /Index/__PUBLIC__/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000181s ]
+
+[ 2021-12-11T14:08:37+08:00 ] 127.0.0.1 /Index/__PUBLIC__/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000209s ]
+
+[ 2021-12-11T14:09:26+08:00 ] 127.0.0.1 /Index/__PUBLIC__/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000211s ]
+
+[ 2021-12-11T14:10:05+08:00 ] 127.0.0.1 /Index/__PUBLIC__/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000215s ]
+
+[ 2021-12-11T14:11:00+08:00 ] 127.0.0.1 /Index/__PUBLIC__/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000368s ]
+
+[ 2021-12-11T14:11:19+08:00 ] 127.0.0.1 /Index/__PUBLIC__/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000266s ]
+
+[ 2021-12-11T14:11:40+08:00 ] 127.0.0.1 /Index/__PUBLIC__/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000290s ]
+
+[ 2021-12-11T14:13:48+08:00 ] 127.0.0.1 /Index/__PUBLIC__/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000296s ]
+
+[ 2021-12-11T14:23:33+08:00 ] 127.0.0.1 /Index/__PUBLIC__/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000224s ]
+
+[ 2021-12-11T14:24:47+08:00 ] 127.0.0.1 /Index/__PUBLIC__/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000190s ]
+
+[ 2021-12-11T14:24:50+08:00 ] 127.0.0.1 /Index/__PUBLIC__/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000259s ]
+
+[ 2021-12-11T14:30:04+08:00 ] 127.0.0.1 /Index/__PUBLIC__/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000222s ]
+
+[ 2021-12-11T14:30:24+08:00 ] 127.0.0.1 /Index/__PUBLIC__/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000192s ]
+
+[ 2021-12-11T14:31:15+08:00 ] 127.0.0.1 /Index/__PUBLIC__/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000256s ]
+
+[ 2021-12-11T14:31:40+08:00 ] 127.0.0.1 /Index/__PUBLIC__/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000273s ]
+
+[ 2021-12-11T14:32:51+08:00 ] 127.0.0.1 /Index/__PUBLIC__/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000211s ]
+
+[ 2021-12-11T14:33:01+08:00 ] 127.0.0.1 /Index/__PUBLIC__/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000176s ]
+
+[ 2021-12-11T14:38:43+08:00 ] 127.0.0.1 /Index/__PUBLIC__/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000230s ]
+
+[ 2021-12-11T14:44:25+08:00 ] 127.0.0.1 /Index/__PUBLIC__/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000197s ]
+
+[ 2021-12-11T14:44:44+08:00 ] 127.0.0.1 /Index/__PUBLIC__/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000225s ]
+
+[ 2021-12-11T14:44:57+08:00 ] 127.0.0.1 /Index/__PUBLIC__/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000178s ]
+
+[ 2021-12-11T14:45:20+08:00 ] 127.0.0.1 /Index/__PUBLIC__/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000294s ]
+
+[ 2021-12-11T14:45:30+08:00 ] 127.0.0.1 /Index/__PUBLIC__/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000187s ]
+
+[ 2021-12-11T14:45:37+08:00 ] 127.0.0.1 /Index/__PUBLIC__/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000170s ]
+
+[ 2021-12-11T14:46:14+08:00 ] 127.0.0.1 /Index/__PUBLIC__/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000182s ]
+
+[ 2021-12-11T14:49:10+08:00 ] 127.0.0.1 /Index/__PUBLIC__/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000216s ]
+
+[ 2021-12-11T14:50:14+08:00 ] 127.0.0.1 /Index/__PUBLIC__/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000182s ]
+
+[ 2021-12-11T14:59:58+08:00 ] 127.0.0.1 /Index/__PUBLIC__/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000179s ]
+
+[ 2021-12-11T15:03:24+08:00 ] 127.0.0.1 /Index/__PUBLIC__/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000225s ]
+
+[ 2021-12-11T15:45:21+08:00 ] 127.0.0.1 /Index/__PUBLIC__/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000429s ]
+
+[ 2021-12-11T18:44:13+08:00 ] 127.0.0.1 /Index/__PUBLIC__/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001300s ]
+
+[ 2021-12-11T18:46:01+08:00 ] 127.0.0.1 /Index/__PUBLIC__/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000201s ]
+
+[ 2021-12-11T18:46:20+08:00 ] 127.0.0.1 /Index/__PUBLIC__/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000206s ]
+
+[ 2021-12-11T18:46:24+08:00 ] 127.0.0.1 /Index/__PUBLIC__/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000173s ]
+
+[ 2021-12-11T18:46:35+08:00 ] 127.0.0.1 /Index/__PUBLIC__/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000253s ]
+
+[ 2021-12-11T18:51:08+08:00 ] 127.0.0.1 /Index/__PUBLIC__/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000211s ]
+
+[ 2021-12-11T19:05:40+08:00 ] 127.0.0.1 /Index/__PUBLIC__/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000258s ]
+
+[ 2021-12-11T19:09:20+08:00 ] 127.0.0.1 /Index/__PUBLIC__/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000177s ]
+
+[ 2021-12-11T19:09:48+08:00 ] 127.0.0.1 /Index/__PUBLIC__/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000241s ]
+
+[ 2021-12-11T19:11:18+08:00 ] 127.0.0.1 /Index/__PUBLIC__/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000178s ]
+
+[ 2021-12-11T19:11:31+08:00 ] 127.0.0.1 /Index/__PUBLIC__/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000237s ]
+
+[ 2021-12-11T19:12:40+08:00 ] 127.0.0.1 /Index/__PUBLIC__/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000176s ]
+
+[ 2021-12-11T19:13:18+08:00 ] 127.0.0.1 /Index/__PUBLIC__/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000181s ]
+
+[ 2021-12-11T19:13:54+08:00 ] 127.0.0.1 /Index/__PUBLIC__/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000181s ]
+
+[ 2021-12-11T19:23:32+08:00 ] 127.0.0.1 /Index/__PUBLIC__/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000184s ]
+
+[ 2021-12-11T21:03:17+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000303s ]
+
+[ 2021-12-11T21:03:21+08:00 ] 127.0.0.1 /Index/__PUBLIC__/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000175s ]
+
+[ 2021-12-11T21:04:26+08:00 ] 127.0.0.1 /Index/__PUBLIC__/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000176s ]
+
+[ 2021-12-11T21:04:58+08:00 ] 127.0.0.1 /Index/__PUBLIC__/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000173s ]
+
+[ 2021-12-11T21:21:22+08:00 ] 127.0.0.1 /Index/__PUBLIC__/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000237s ]
+
+[ 2021-12-11T21:24:24+08:00 ] 127.0.0.1 /Index/__PUBLIC__/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000185s ]
+
+[ 2021-12-11T21:42:32+08:00 ] 127.0.0.1 /Index/__PUBLIC__/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000173s ]
+
+[ 2021-12-11T21:43:59+08:00 ] 127.0.0.1 /Index/__PUBLIC__/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000173s ]
+
+[ 2021-12-11T21:44:40+08:00 ] 127.0.0.1 /Index/__PUBLIC__/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000182s ]
+
+[ 2021-12-11T21:45:30+08:00 ] 127.0.0.1 /Index/__PUBLIC__/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000176s ]
+
+[ 2021-12-11T21:45:52+08:00 ] 127.0.0.1 /Index/__PUBLIC__/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000171s ]
+
+[ 2021-12-11T21:50:13+08:00 ] 127.0.0.1 /Index/__PUBLIC__/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000183s ]
+
+[ 2021-12-11T21:50:39+08:00 ] 127.0.0.1 /Index/__PUBLIC__/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000173s ]
+
+[ 2021-12-11T21:51:11+08:00 ] 127.0.0.1 /Index/__PUBLIC__/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000169s ]
+
+[ 2021-12-11T21:52:19+08:00 ] 127.0.0.1 /Index/__PUBLIC__/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000174s ]
+
+[ 2021-12-11T21:53:18+08:00 ] 127.0.0.1 /Index/__PUBLIC__/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000171s ]
+
+[ 2021-12-11T21:53:34+08:00 ] 127.0.0.1 /Index/__PUBLIC__/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000182s ]
+
+[ 2021-12-11T21:54:38+08:00 ] 127.0.0.1 /Index/__PUBLIC__/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000203s ]
+
+[ 2021-12-11T21:59:11+08:00 ] 127.0.0.1 /Index/__PUBLIC__/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000174s ]
+
+[ 2021-12-11T21:59:34+08:00 ] 127.0.0.1 /Index/__PUBLIC__/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000174s ]
+
+[ 2021-12-11T22:02:37+08:00 ] 127.0.0.1 /Index/__PUBLIC__/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000169s ]
+
+[ 2021-12-11T22:04:17+08:00 ] 127.0.0.1 /Index/__PUBLIC__/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000164s ]
+
+[ 2021-12-11T22:05:09+08:00 ] 127.0.0.1 /Index/__PUBLIC__/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000166s ]
+
+[ 2021-12-11T22:09:32+08:00 ] 127.0.0.1 /Index/__PUBLIC__/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000163s ]
+
+[ 2021-12-11T22:09:44+08:00 ] 127.0.0.1 /Index/__PUBLIC__/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000166s ]
+
+[ 2021-12-11T22:09:55+08:00 ] 127.0.0.1 /Index/__PUBLIC__/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000167s ]
+
+[ 2021-12-11T22:10:43+08:00 ] 127.0.0.1 /Index/__PUBLIC__/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000187s ]
+
+[ 2021-12-11T22:18:45+08:00 ] 127.0.0.1 /Index/__PUBLIC__/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000198s ]
+
+[ 2021-12-11T22:29:17+08:00 ] 127.0.0.1 /Index/__PUBLIC__/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000238s ]
+
+[ 2021-12-11T22:31:13+08:00 ] 127.0.0.1 /Index/__PUBLIC__/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000177s ]
+
+[ 2021-12-11T22:47:37+08:00 ] 127.0.0.1 /Index/__PUBLIC__/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000257s ]
+
+[ 2021-12-11T22:48:22+08:00 ] 127.0.0.1 /Index/__PUBLIC__/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000185s ]
+
+[ 2021-12-11T22:56:13+08:00 ] 127.0.0.1 /Index/__PUBLIC__/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000179s ]
+
+[ 2021-12-11T23:02:24+08:00 ] 127.0.0.1 /Index/__PUBLIC__/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000175s ]
+
+[ 2021-12-11T23:32:16+08:00 ] 127.0.0.1 /Index/__PUBLIC__/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000171s ]
+
+[ 2021-12-11T23:32:58+08:00 ] 127.0.0.1 /Index/__PUBLIC__/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000172s ]
+
+[ 2021-12-11T23:35:56+08:00 ] 127.0.0.1 /Index/__PUBLIC__/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000173s ]
+
+[ 2021-12-11T23:36:35+08:00 ] 127.0.0.1 /Index/__PUBLIC__/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000175s ]
+

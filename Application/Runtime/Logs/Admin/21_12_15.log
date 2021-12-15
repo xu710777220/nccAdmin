@@ -1,0 +1,1474 @@
+[ 2021-12-15T15:45:21+08:00 ] 127.0.0.1 /Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.011736s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000671s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000707s ]
+NOTIC: [8] Undefined index: username D:\phpstudy_pro\WWW\thinkphp32-master\Application\Admin\Common\BaseController.class.php 第 18 行.
+
+[ 2021-12-15T15:45:21+08:00 ] 127.0.0.1 /Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000158s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000195s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000216s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000882s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000923s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024797s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024831s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000637s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000664s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000699s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000738s ]
+
+[ 2021-12-15T15:45:22+08:00 ] 127.0.0.1 /Login/checkLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000167s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000354s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000397s ]
+SQL: SHOW COLUMNS FROM `t_user` [ RunTime:0.0257s ]
+SQL: SELECT * FROM `t_user` WHERE ( login_name = 'ncc_user' AND login_pwd = 'e10adc3949ba59abbe56e057f20f883e' ) LIMIT 1   [ RunTime:0.0251s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000306s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000330s ]
+
+[ 2021-12-15T15:45:24+08:00 ] 127.0.0.1 /Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000208s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000229s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000257s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000080s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013684s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013720s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000101s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000117s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000213s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000267s ]
+
+[ 2021-12-15T15:45:24+08:00 ] 127.0.0.1 /Drug/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000181s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000220s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000246s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000085s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011115s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011148s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000100s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000117s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000207s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000225s ]
+
+[ 2021-12-15T15:45:24+08:00 ] 127.0.0.1 /Drug/getHisList?page=1&limit=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000186s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000242s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000269s ]
+SQL: SHOW COLUMNS FROM `t_drug` [ RunTime:0.0199s ]
+SQL: SELECT * FROM `t_drug` WHERE ( is_del = 0 AND is_show = 1 AND is_dui = 1  )  [ RunTime:0.0995s ]
+SQL: SHOW COLUMNS FROM `t_drug` [ RunTime:0.0198s ]
+SQL: SELECT `drug_id`,`ins_code`,`drug_name`,`drug_chemical_name`,`drug_form_name`,`drug_specification`,tdp.drug_producer_name,`src_unit_name`,`is_dui`,`abbreviate_name` FROM t_drug td INNER JOIN t_drug_form tdf ON td.drug_form_id = tdf.drug_form_id INNER JOIN t_drug_producer tdp ON td.drug_producer_id = tdp.drug_producer_id INNER JOIN t_src_unit tsu ON td.src_unit_id = tsu.src_unit_id  WHERE ( td.is_del = 0 AND is_show = 1 and is_dui = 1  ) ORDER BY `drug_id` LIMIT 1,10   [ RunTime:0.0197s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000336s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000369s ]
+
+[ 2021-12-15T15:45:25+08:00 ] 127.0.0.1 /Drug/getNccList?page=1&limit=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000160s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000195s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000215s ]
+SQL: SHOW COLUMNS FROM `ncc_wuliao` [ RunTime:0.0255s ]
+SQL: SELECT * FROM `ncc_wuliao` WHERE ( enablestate = 2 AND dr = 0  )  [ RunTime:0.0265s ]
+SQL: SELECT * FROM `ncc_wuliao` WHERE ( enablestate = 2 AND dr = 0  ) ORDER BY `id` LIMIT 0,10   [ RunTime:0.0251s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000303s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000328s ]
+
+[ 2021-12-15T15:48:51+08:00 ] 127.0.0.1 /Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000236s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000299s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000333s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000081s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004256s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004287s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000143s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000159s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000273s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000295s ]
+
+[ 2021-12-15T15:48:51+08:00 ] 127.0.0.1 /Drug/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000328s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000260s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000291s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000089s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015559s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015602s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000120s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000138s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000222s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000240s ]
+
+[ 2021-12-15T15:48:52+08:00 ] 127.0.0.1 /Drug/getHisList?page=1&limit=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000180s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000224s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000248s ]
+SQL: SHOW COLUMNS FROM `t_drug` [ RunTime:0.0253s ]
+SQL: SELECT * FROM `t_drug` WHERE ( is_del = 0 AND is_show = 1 AND is_dui = 1  )  [ RunTime:0.1242s ]
+SQL: SHOW COLUMNS FROM `t_drug` [ RunTime:0.0237s ]
+SQL: SELECT `drug_id`,`ins_code`,`drug_name`,`drug_chemical_name`,`drug_form_name`,`drug_specification`,tdp.drug_producer_name,`src_unit_name`,`is_dui`,`abbreviate_name` FROM t_drug td INNER JOIN t_drug_form tdf ON td.drug_form_id = tdf.drug_form_id INNER JOIN t_drug_producer tdp ON td.drug_producer_id = tdp.drug_producer_id INNER JOIN t_src_unit tsu ON td.src_unit_id = tsu.src_unit_id  WHERE ( td.is_del = 0 AND is_show = 1 and is_dui = 1  ) ORDER BY `drug_id` LIMIT 1,10   [ RunTime:0.0247s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000350s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000379s ]
+
+[ 2021-12-15T15:48:53+08:00 ] 127.0.0.1 /Drug/getNccList?page=1&limit=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000190s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000214s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000234s ]
+SQL: SHOW COLUMNS FROM `ncc_wuliao` [ RunTime:0.0352s ]
+SQL: SELECT * FROM `ncc_wuliao` WHERE ( enablestate = 2 AND dr = 0  )  [ RunTime:0.0361s ]
+SQL: SELECT * FROM `ncc_wuliao` WHERE ( enablestate = 2 AND dr = 0  ) ORDER BY `id` LIMIT 0,10   [ RunTime:0.0347s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000292s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000314s ]
+
+[ 2021-12-15T15:49:27+08:00 ] 127.0.0.1 /Drug/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000169s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000205s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000229s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000075s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002764s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002788s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000091s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000105s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000198s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000215s ]
+
+[ 2021-12-15T15:49:28+08:00 ] 127.0.0.1 /Drug/getHisList?page=1&limit=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000188s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000224s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000249s ]
+SQL: SHOW COLUMNS FROM `t_drug` [ RunTime:0.0357s ]
+SQL: SELECT * FROM `t_drug` WHERE ( is_del = 0 AND is_show = 1 AND is_dui = 1  )  [ RunTime:0.1753s ]
+SQL: SHOW COLUMNS FROM `t_drug` [ RunTime:0.0348s ]
+SQL: SELECT `drug_id`,`ins_code`,`drug_name`,`drug_chemical_name`,`drug_form_name`,`drug_specification`,tdp.drug_producer_name,`src_unit_name`,`is_dui`,`abbreviate_name` FROM t_drug td INNER JOIN t_drug_form tdf ON td.drug_form_id = tdf.drug_form_id INNER JOIN t_drug_producer tdp ON td.drug_producer_id = tdp.drug_producer_id INNER JOIN t_src_unit tsu ON td.src_unit_id = tsu.src_unit_id  WHERE ( td.is_del = 0 AND is_show = 1 and is_dui = 1  ) ORDER BY `drug_id` LIMIT 1,10   [ RunTime:0.0345s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000307s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000333s ]
+
+[ 2021-12-15T15:49:28+08:00 ] 127.0.0.1 /Drug/getNccList?page=1&limit=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000161s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000202s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000224s ]
+SQL: SHOW COLUMNS FROM `ncc_wuliao` [ RunTime:0.0204s ]
+SQL: SELECT * FROM `ncc_wuliao` WHERE ( enablestate = 2 AND dr = 0  )  [ RunTime:0.0212s ]
+SQL: SELECT * FROM `ncc_wuliao` WHERE ( enablestate = 2 AND dr = 0  ) ORDER BY `id` LIMIT 0,10   [ RunTime:0.0201s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000317s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000342s ]
+
+[ 2021-12-15T15:50:46+08:00 ] 127.0.0.1 /Drug/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000170s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000218s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000243s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000073s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002688s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002712s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000092s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000107s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000192s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000210s ]
+
+[ 2021-12-15T15:50:47+08:00 ] 127.0.0.1 /Drug/getHisList?page=1&limit=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000176s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000242s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000269s ]
+SQL: SHOW COLUMNS FROM `t_drug` [ RunTime:0.0246s ]
+SQL: SELECT * FROM `t_drug` WHERE ( is_del = 0 AND is_show = 1 AND is_dui = 1  )  [ RunTime:0.1218s ]
+SQL: SHOW COLUMNS FROM `t_drug` [ RunTime:0.0246s ]
+SQL: SELECT `drug_id`,`ins_code`,`drug_name`,`drug_chemical_name`,`drug_form_name`,`drug_specification`,tdp.drug_producer_name,`src_unit_name`,`is_dui`,`abbreviate_name` FROM t_drug td INNER JOIN t_drug_form tdf ON td.drug_form_id = tdf.drug_form_id INNER JOIN t_drug_producer tdp ON td.drug_producer_id = tdp.drug_producer_id INNER JOIN t_src_unit tsu ON td.src_unit_id = tsu.src_unit_id  WHERE ( td.is_del = 0 AND is_show = 1 and is_dui = 1  ) ORDER BY `drug_id` LIMIT 1,10   [ RunTime:0.0244s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000325s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000360s ]
+
+[ 2021-12-15T15:50:48+08:00 ] 127.0.0.1 /Drug/getNccList?page=1&limit=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000166s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000213s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000237s ]
+SQL: SHOW COLUMNS FROM `ncc_wuliao` [ RunTime:0.0324s ]
+SQL: SELECT * FROM `ncc_wuliao` WHERE ( enablestate = 2 AND dr = 0  )  [ RunTime:0.0326s ]
+SQL: SELECT * FROM `ncc_wuliao` WHERE ( enablestate = 2 AND dr = 0  ) ORDER BY `id` LIMIT 0,10   [ RunTime:0.0322s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000301s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000324s ]
+
+[ 2021-12-15T15:55:18+08:00 ] 127.0.0.1 /Drug/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000190s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000225s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000251s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000103s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002966s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002994s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000123s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000138s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000230s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000251s ]
+
+[ 2021-12-15T15:55:18+08:00 ] 127.0.0.1 /Drug/getHisList?page=1&limit=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000182s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000233s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000258s ]
+SQL: SHOW COLUMNS FROM `t_drug` [ RunTime:0.0258s ]
+SQL: SELECT * FROM `t_drug` WHERE ( is_del = 0 AND is_show = 1 AND is_dui = 1  )  [ RunTime:0.1257s ]
+SQL: SHOW COLUMNS FROM `t_drug` [ RunTime:0.0251s ]
+SQL: SELECT `drug_id`,`ins_code`,`drug_name`,`drug_chemical_name`,`drug_form_name`,`drug_specification`,tdp.drug_producer_name,`src_unit_name`,`is_dui`,`abbreviate_name` FROM t_drug td INNER JOIN t_drug_form tdf ON td.drug_form_id = tdf.drug_form_id INNER JOIN t_drug_producer tdp ON td.drug_producer_id = tdp.drug_producer_id INNER JOIN t_src_unit tsu ON td.src_unit_id = tsu.src_unit_id  WHERE ( td.is_del = 0 AND is_show = 1 and is_dui = 1  ) ORDER BY `drug_id` LIMIT 1,10   [ RunTime:0.0253s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000382s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000423s ]
+
+[ 2021-12-15T15:55:19+08:00 ] 127.0.0.1 /Drug/getNccList?page=1&limit=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000172s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000222s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000252s ]
+SQL: SHOW COLUMNS FROM `ncc_wuliao` [ RunTime:0.0209s ]
+SQL: SELECT * FROM `ncc_wuliao` WHERE ( enablestate = 2 AND dr = 0  )  [ RunTime:0.0222s ]
+SQL: SELECT * FROM `ncc_wuliao` WHERE ( enablestate = 2 AND dr = 0  ) ORDER BY `id` LIMIT 0,10   [ RunTime:0.0204s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000290s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000312s ]
+
+[ 2021-12-15T15:55:28+08:00 ] 127.0.0.1 /Drug/upLiwai
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000176s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000219s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000245s ]
+
+[ 2021-12-15T16:02:05+08:00 ] 127.0.0.1 /Drug/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000247s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000250s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000277s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000087s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002983s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003009s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000121s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000137s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000241s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000261s ]
+
+[ 2021-12-15T16:02:06+08:00 ] 127.0.0.1 /Drug/getHisList?page=1&limit=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000187s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000267s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000300s ]
+SQL: SHOW COLUMNS FROM `t_drug` [ RunTime:0.0260s ]
+SQL: SELECT * FROM `t_drug` WHERE ( is_del = 0 AND is_show = 1 AND is_dui = 1  )  [ RunTime:0.1296s ]
+SQL: SHOW COLUMNS FROM `t_drug` [ RunTime:0.0258s ]
+SQL: SELECT `drug_id`,`ins_code`,`drug_name`,`drug_chemical_name`,`drug_form_name`,`drug_specification`,tdp.drug_producer_name,`src_unit_name`,`is_dui`,`abbreviate_name` FROM t_drug td INNER JOIN t_drug_form tdf ON td.drug_form_id = tdf.drug_form_id INNER JOIN t_drug_producer tdp ON td.drug_producer_id = tdp.drug_producer_id INNER JOIN t_src_unit tsu ON td.src_unit_id = tsu.src_unit_id  WHERE ( td.is_del = 0 AND is_show = 1 and is_dui = 1  ) ORDER BY `drug_id` LIMIT 1,10   [ RunTime:0.0255s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000324s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000354s ]
+
+[ 2021-12-15T16:02:07+08:00 ] 127.0.0.1 /Drug/getNccList?page=1&limit=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000197s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000236s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000267s ]
+SQL: SHOW COLUMNS FROM `ncc_wuliao` [ RunTime:0.0201s ]
+SQL: SELECT * FROM `ncc_wuliao` WHERE ( enablestate = 2 AND dr = 0  )  [ RunTime:0.0401s ]
+SQL: SELECT * FROM `ncc_wuliao` WHERE ( enablestate = 2 AND dr = 0  ) ORDER BY `id` LIMIT 0,10   [ RunTime:0.0205s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000293s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000317s ]
+
+[ 2021-12-15T16:02:20+08:00 ] 127.0.0.1 /Drug/upLiwai
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000167s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000204s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000227s ]
+SQL: SHOW COLUMNS FROM `ncc_wuliao` [ RunTime:0.0233s ]
+SQL: UPDATE `ncc_wuliao` SET `is_liwai`='2' WHERE ( code IN ('01029999') ) [ RunTime:0.0217s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000300s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000329s ]
+
+[ 2021-12-15T16:02:22+08:00 ] 127.0.0.1 /Drug/getNccList?page=1&limit=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000176s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000213s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000236s ]
+SQL: SHOW COLUMNS FROM `ncc_wuliao` [ RunTime:0.0203s ]
+SQL: SELECT * FROM `ncc_wuliao` WHERE ( enablestate = 2 AND dr = 0  )  [ RunTime:0.0395s ]
+SQL: SELECT * FROM `ncc_wuliao` WHERE ( enablestate = 2 AND dr = 0  ) ORDER BY `id` LIMIT 0,10   [ RunTime:0.0205s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000333s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000357s ]
+
+[ 2021-12-15T16:03:01+08:00 ] 127.0.0.1 /Drug/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000186s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000238s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000268s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000083s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002777s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002801s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000094s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000111s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000203s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000221s ]
+
+[ 2021-12-15T16:03:01+08:00 ] 127.0.0.1 /Drug/getHisList?page=1&limit=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000186s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000233s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000259s ]
+SQL: SHOW COLUMNS FROM `t_drug` [ RunTime:0.0210s ]
+SQL: SELECT * FROM `t_drug` WHERE ( is_del = 0 AND is_show = 1 AND is_dui = 1  )  [ RunTime:0.1022s ]
+SQL: SHOW COLUMNS FROM `t_drug` [ RunTime:0.0206s ]
+SQL: SELECT `drug_id`,`ins_code`,`drug_name`,`drug_chemical_name`,`drug_form_name`,`drug_specification`,tdp.drug_producer_name,`src_unit_name`,`is_dui`,`abbreviate_name` FROM t_drug td INNER JOIN t_drug_form tdf ON td.drug_form_id = tdf.drug_form_id INNER JOIN t_drug_producer tdp ON td.drug_producer_id = tdp.drug_producer_id INNER JOIN t_src_unit tsu ON td.src_unit_id = tsu.src_unit_id  WHERE ( td.is_del = 0 AND is_show = 1 and is_dui = 1  ) ORDER BY `drug_id` LIMIT 1,10   [ RunTime:0.0207s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000325s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000351s ]
+
+[ 2021-12-15T16:03:02+08:00 ] 127.0.0.1 /Drug/getNccList?page=1&limit=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000198s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000226s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000253s ]
+SQL: SHOW COLUMNS FROM `ncc_wuliao` [ RunTime:0.0256s ]
+SQL: SELECT * FROM `ncc_wuliao` WHERE ( enablestate = 2 AND dr = 0  )  [ RunTime:0.0503s ]
+SQL: SELECT * FROM `ncc_wuliao` WHERE ( enablestate = 2 AND dr = 0  ) ORDER BY `id` LIMIT 0,10   [ RunTime:0.0252s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000339s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000372s ]
+
+[ 2021-12-15T16:03:08+08:00 ] 127.0.0.1 /Drug/upLiwai
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000171s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000209s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000234s ]
+SQL: SHOW COLUMNS FROM `ncc_wuliao` [ RunTime:0.0248s ]
+SQL: UPDATE `ncc_wuliao` SET `is_liwai`='2' WHERE ( code IN ('01029999') ) [ RunTime:0.0237s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000294s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000317s ]
+
+[ 2021-12-15T16:03:11+08:00 ] 127.0.0.1 /Drug/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000173s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000213s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000238s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000057s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000086s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002789s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002816s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000098s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000114s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000207s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000225s ]
+
+[ 2021-12-15T16:03:12+08:00 ] 127.0.0.1 /Drug/getHisList?page=1&limit=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000180s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000235s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000261s ]
+SQL: SHOW COLUMNS FROM `t_drug` [ RunTime:0.0378s ]
+SQL: SELECT * FROM `t_drug` WHERE ( is_del = 0 AND is_show = 1 AND is_dui = 1  )  [ RunTime:0.1885s ]
+SQL: SHOW COLUMNS FROM `t_drug` [ RunTime:0.0375s ]
+SQL: SELECT `drug_id`,`ins_code`,`drug_name`,`drug_chemical_name`,`drug_form_name`,`drug_specification`,tdp.drug_producer_name,`src_unit_name`,`is_dui`,`abbreviate_name` FROM t_drug td INNER JOIN t_drug_form tdf ON td.drug_form_id = tdf.drug_form_id INNER JOIN t_drug_producer tdp ON td.drug_producer_id = tdp.drug_producer_id INNER JOIN t_src_unit tsu ON td.src_unit_id = tsu.src_unit_id  WHERE ( td.is_del = 0 AND is_show = 1 and is_dui = 1  ) ORDER BY `drug_id` LIMIT 1,10   [ RunTime:0.0373s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000425s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000451s ]
+
+[ 2021-12-15T16:03:13+08:00 ] 127.0.0.1 /Drug/getNccList?page=1&limit=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000164s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000202s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000223s ]
+SQL: SHOW COLUMNS FROM `ncc_wuliao` [ RunTime:0.0254s ]
+SQL: SELECT * FROM `ncc_wuliao` WHERE ( enablestate = 2 AND dr = 0  )  [ RunTime:0.0498s ]
+SQL: SELECT * FROM `ncc_wuliao` WHERE ( enablestate = 2 AND dr = 0  ) ORDER BY `id` LIMIT 0,10   [ RunTime:0.0246s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000314s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000337s ]
+
+[ 2021-12-15T16:03:52+08:00 ] 127.0.0.1 /Drug/upLiwai
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000180s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000218s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000241s ]
+
+[ 2021-12-15T16:04:16+08:00 ] 127.0.0.1 /Drug/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000202s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000239s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000265s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000093s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003031s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000131s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000149s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000237s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000256s ]
+
+[ 2021-12-15T16:04:16+08:00 ] 127.0.0.1 /Drug/getHisList?page=1&limit=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000176s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000220s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000244s ]
+SQL: SHOW COLUMNS FROM `t_drug` [ RunTime:0.0207s ]
+SQL: SELECT * FROM `t_drug` WHERE ( is_del = 0 AND is_show = 1 AND is_dui = 1  )  [ RunTime:0.1014s ]
+SQL: SHOW COLUMNS FROM `t_drug` [ RunTime:0.0191s ]
+SQL: SELECT `drug_id`,`ins_code`,`drug_name`,`drug_chemical_name`,`drug_form_name`,`drug_specification`,tdp.drug_producer_name,`src_unit_name`,`is_dui`,`abbreviate_name` FROM t_drug td INNER JOIN t_drug_form tdf ON td.drug_form_id = tdf.drug_form_id INNER JOIN t_drug_producer tdp ON td.drug_producer_id = tdp.drug_producer_id INNER JOIN t_src_unit tsu ON td.src_unit_id = tsu.src_unit_id  WHERE ( td.is_del = 0 AND is_show = 1 and is_dui = 1  ) ORDER BY `drug_id` LIMIT 1,10   [ RunTime:0.0201s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000320s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000345s ]
+
+[ 2021-12-15T16:04:17+08:00 ] 127.0.0.1 /Drug/getNccList?page=1&limit=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000173s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000203s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000225s ]
+SQL: SHOW COLUMNS FROM `ncc_wuliao` [ RunTime:0.0237s ]
+SQL: SELECT * FROM `ncc_wuliao` WHERE ( enablestate = 2 AND dr = 0  )  [ RunTime:0.0464s ]
+SQL: SELECT * FROM `ncc_wuliao` WHERE ( enablestate = 2 AND dr = 0  ) ORDER BY `id` LIMIT 0,10   [ RunTime:0.0232s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000307s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000330s ]
+
+[ 2021-12-15T16:04:21+08:00 ] 127.0.0.1 /Drug/upLiwai
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000222s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000230s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000256s ]
+
+[ 2021-12-15T16:04:49+08:00 ] 127.0.0.1 /Drug/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000200s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000210s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000233s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000083s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002775s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002800s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000095s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000112s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000203s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000220s ]
+
+[ 2021-12-15T16:04:49+08:00 ] 127.0.0.1 /Drug/getHisList?page=1&limit=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000272s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000271s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000308s ]
+SQL: SHOW COLUMNS FROM `t_drug` [ RunTime:0.0229s ]
+SQL: SELECT * FROM `t_drug` WHERE ( is_del = 0 AND is_show = 1 AND is_dui = 1  )  [ RunTime:0.1116s ]
+SQL: SHOW COLUMNS FROM `t_drug` [ RunTime:0.0220s ]
+SQL: SELECT `drug_id`,`ins_code`,`drug_name`,`drug_chemical_name`,`drug_form_name`,`drug_specification`,tdp.drug_producer_name,`src_unit_name`,`is_dui`,`abbreviate_name` FROM t_drug td INNER JOIN t_drug_form tdf ON td.drug_form_id = tdf.drug_form_id INNER JOIN t_drug_producer tdp ON td.drug_producer_id = tdp.drug_producer_id INNER JOIN t_src_unit tsu ON td.src_unit_id = tsu.src_unit_id  WHERE ( td.is_del = 0 AND is_show = 1 and is_dui = 1  ) ORDER BY `drug_id` LIMIT 1,10   [ RunTime:0.0219s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000316s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000351s ]
+
+[ 2021-12-15T16:04:50+08:00 ] 127.0.0.1 /Drug/getNccList?page=1&limit=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000169s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000209s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000234s ]
+SQL: SHOW COLUMNS FROM `ncc_wuliao` [ RunTime:0.0203s ]
+SQL: SELECT * FROM `ncc_wuliao` WHERE ( enablestate = 2 AND dr = 0  )  [ RunTime:0.0400s ]
+SQL: SELECT * FROM `ncc_wuliao` WHERE ( enablestate = 2 AND dr = 0  ) ORDER BY `id` LIMIT 0,10   [ RunTime:0.0200s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000304s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000327s ]
+
+[ 2021-12-15T16:04:58+08:00 ] 127.0.0.1 /Drug/upLiwai
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000189s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000226s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000252s ]
+
+[ 2021-12-15T16:05:25+08:00 ] 127.0.0.1 /Drug/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000168s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000209s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000232s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000080s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002763s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002785s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000095s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000112s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000203s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000221s ]
+
+[ 2021-12-15T16:05:25+08:00 ] 127.0.0.1 /Drug/getHisList?page=1&limit=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000207s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000260s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000291s ]
+SQL: SHOW COLUMNS FROM `t_drug` [ RunTime:0.0253s ]
+SQL: SELECT * FROM `t_drug` WHERE ( is_del = 0 AND is_show = 1 AND is_dui = 1  )  [ RunTime:0.1231s ]
+SQL: SHOW COLUMNS FROM `t_drug` [ RunTime:0.0246s ]
+SQL: SELECT `drug_id`,`ins_code`,`drug_name`,`drug_chemical_name`,`drug_form_name`,`drug_specification`,tdp.drug_producer_name,`src_unit_name`,`is_dui`,`abbreviate_name` FROM t_drug td INNER JOIN t_drug_form tdf ON td.drug_form_id = tdf.drug_form_id INNER JOIN t_drug_producer tdp ON td.drug_producer_id = tdp.drug_producer_id INNER JOIN t_src_unit tsu ON td.src_unit_id = tsu.src_unit_id  WHERE ( td.is_del = 0 AND is_show = 1 and is_dui = 1  ) ORDER BY `drug_id` LIMIT 1,10   [ RunTime:0.0247s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000336s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000361s ]
+
+[ 2021-12-15T16:05:26+08:00 ] 127.0.0.1 /Drug/getNccList?page=1&limit=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000175s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000207s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000245s ]
+SQL: SHOW COLUMNS FROM `ncc_wuliao` [ RunTime:0.0209s ]
+SQL: SELECT * FROM `ncc_wuliao` WHERE ( enablestate = 2 AND dr = 0  )  [ RunTime:0.0419s ]
+SQL: SELECT * FROM `ncc_wuliao` WHERE ( enablestate = 2 AND dr = 0  ) ORDER BY `id` LIMIT 0,10   [ RunTime:0.0212s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000312s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000335s ]
+
+[ 2021-12-15T16:05:33+08:00 ] 127.0.0.1 /Drug/upLiwai
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000186s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000229s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000255s ]
+SQL: SHOW COLUMNS FROM `ncc_wuliao` [ RunTime:0.0245s ]
+SQL: UPDATE `ncc_wuliao` SET `is_liwai`='2' WHERE ( code IN ('101003','01029999') ) [ RunTime:0.0248s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000328s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000354s ]
+
+[ 2021-12-15T16:05:34+08:00 ] 127.0.0.1 /Drug/getNccList?page=1&limit=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000172s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000217s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000241s ]
+SQL: SHOW COLUMNS FROM `ncc_wuliao` [ RunTime:0.0250s ]
+SQL: SELECT * FROM `ncc_wuliao` WHERE ( enablestate = 2 AND dr = 0  )  [ RunTime:0.0492s ]
+SQL: SELECT * FROM `ncc_wuliao` WHERE ( enablestate = 2 AND dr = 0  ) ORDER BY `id` LIMIT 0,10   [ RunTime:0.0252s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000312s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000338s ]
+
+[ 2021-12-15T16:06:07+08:00 ] 127.0.0.1 /Drug/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000168s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000206s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000229s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000052s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000076s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002661s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002685s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000091s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000107s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000194s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000212s ]
+
+[ 2021-12-15T16:06:07+08:00 ] 127.0.0.1 /Drug/getHisList?page=1&limit=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000192s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000224s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000249s ]
+SQL: SHOW COLUMNS FROM `t_drug` [ RunTime:0.0357s ]
+SQL: SELECT * FROM `t_drug` WHERE ( is_del = 0 AND is_show = 1 AND is_dui = 1  )  [ RunTime:0.1780s ]
+SQL: SHOW COLUMNS FROM `t_drug` [ RunTime:0.0338s ]
+SQL: SELECT `drug_id`,`ins_code`,`drug_name`,`drug_chemical_name`,`drug_form_name`,`drug_specification`,tdp.drug_producer_name,`src_unit_name`,`is_dui`,`abbreviate_name` FROM t_drug td INNER JOIN t_drug_form tdf ON td.drug_form_id = tdf.drug_form_id INNER JOIN t_drug_producer tdp ON td.drug_producer_id = tdp.drug_producer_id INNER JOIN t_src_unit tsu ON td.src_unit_id = tsu.src_unit_id  WHERE ( td.is_del = 0 AND is_show = 1 and is_dui = 1  ) ORDER BY `drug_id` LIMIT 1,10   [ RunTime:0.0351s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000315s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000341s ]
+
+[ 2021-12-15T16:06:08+08:00 ] 127.0.0.1 /Drug/getNccList?page=1&limit=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000167s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000203s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000225s ]
+SQL: SHOW COLUMNS FROM `ncc_wuliao` [ RunTime:0.0262s ]
+ERR: 1054:Unknown column 'is_lieai' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `ncc_wuliao` WHERE ( enablestate = 2 AND dr = 0 AND is_lieai = 1  ) 
+ERR: 1054:Unknown column 'is_lieai' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `ncc_wuliao` WHERE ( enablestate = 2 AND dr = 0 AND is_lieai = 1  ) 
+
+[ 2021-12-15T16:06:16+08:00 ] 127.0.0.1 /Drug/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000179s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000239s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000268s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000088s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002956s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002983s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000103s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000120s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000217s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000235s ]
+
+[ 2021-12-15T16:06:16+08:00 ] 127.0.0.1 /Drug/getHisList?page=1&limit=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000413s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000269s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000298s ]
+SQL: SHOW COLUMNS FROM `t_drug` [ RunTime:0.0212s ]
+SQL: SELECT * FROM `t_drug` WHERE ( is_del = 0 AND is_show = 1 AND is_dui = 1  )  [ RunTime:0.1039s ]
+SQL: SHOW COLUMNS FROM `t_drug` [ RunTime:0.0206s ]
+SQL: SELECT `drug_id`,`ins_code`,`drug_name`,`drug_chemical_name`,`drug_form_name`,`drug_specification`,tdp.drug_producer_name,`src_unit_name`,`is_dui`,`abbreviate_name` FROM t_drug td INNER JOIN t_drug_form tdf ON td.drug_form_id = tdf.drug_form_id INNER JOIN t_drug_producer tdp ON td.drug_producer_id = tdp.drug_producer_id INNER JOIN t_src_unit tsu ON td.src_unit_id = tsu.src_unit_id  WHERE ( td.is_del = 0 AND is_show = 1 and is_dui = 1  ) ORDER BY `drug_id` LIMIT 1,10   [ RunTime:0.0207s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000317s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000345s ]
+
+[ 2021-12-15T16:06:17+08:00 ] 127.0.0.1 /Drug/getNccList?page=1&limit=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000203s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000243s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000269s ]
+SQL: SHOW COLUMNS FROM `ncc_wuliao` [ RunTime:0.0191s ]
+SQL: SELECT * FROM `ncc_wuliao` WHERE ( enablestate = 2 AND dr = 0 AND is_liwai = 1  )  [ RunTime:0.0208s ]
+SQL: SELECT * FROM `ncc_wuliao` WHERE ( enablestate = 2 AND dr = 0  ) ORDER BY `id` LIMIT 0,10   [ RunTime:0.0200s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000359s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000382s ]
+
+[ 2021-12-15T16:06:26+08:00 ] 127.0.0.1 /Drug/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000170s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000213s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000237s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000054s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000080s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002942s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002965s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000120s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000137s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000205s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000223s ]
+
+[ 2021-12-15T16:06:26+08:00 ] 127.0.0.1 /Drug/getHisList?page=1&limit=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000173s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000221s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000244s ]
+SQL: SHOW COLUMNS FROM `t_drug` [ RunTime:0.0277s ]
+SQL: SELECT * FROM `t_drug` WHERE ( is_del = 0 AND is_show = 1 AND is_dui = 1  )  [ RunTime:0.1332s ]
+SQL: SHOW COLUMNS FROM `t_drug` [ RunTime:0.0266s ]
+SQL: SELECT `drug_id`,`ins_code`,`drug_name`,`drug_chemical_name`,`drug_form_name`,`drug_specification`,tdp.drug_producer_name,`src_unit_name`,`is_dui`,`abbreviate_name` FROM t_drug td INNER JOIN t_drug_form tdf ON td.drug_form_id = tdf.drug_form_id INNER JOIN t_drug_producer tdp ON td.drug_producer_id = tdp.drug_producer_id INNER JOIN t_src_unit tsu ON td.src_unit_id = tsu.src_unit_id  WHERE ( td.is_del = 0 AND is_show = 1 and is_dui = 1  ) ORDER BY `drug_id` LIMIT 1,10   [ RunTime:0.0267s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000347s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000382s ]
+
+[ 2021-12-15T16:06:27+08:00 ] 127.0.0.1 /Drug/getNccList?page=1&limit=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000175s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000213s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000236s ]
+SQL: SHOW COLUMNS FROM `ncc_wuliao` [ RunTime:0.0335s ]
+SQL: SELECT * FROM `ncc_wuliao` WHERE ( enablestate = 2 AND dr = 0 AND is_liwai = 1  )  [ RunTime:0.0345s ]
+SQL: SELECT * FROM `ncc_wuliao` WHERE ( enablestate = 2 AND dr = 0  ) ORDER BY `id` LIMIT 0,10   [ RunTime:0.0336s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000363s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000385s ]
+
+[ 2021-12-15T16:06:43+08:00 ] 127.0.0.1 /Drug/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000180s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000235s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000262s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000096s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003169s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003195s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000100s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000117s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000213s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000232s ]
+
+[ 2021-12-15T16:06:43+08:00 ] 127.0.0.1 /Drug/getHisList?page=1&limit=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000194s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000221s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000244s ]
+SQL: SHOW COLUMNS FROM `t_drug` [ RunTime:0.0260s ]
+SQL: SELECT * FROM `t_drug` WHERE ( is_del = 0 AND is_show = 1 AND is_dui = 1  )  [ RunTime:0.1290s ]
+SQL: SHOW COLUMNS FROM `t_drug` [ RunTime:0.0256s ]
+SQL: SELECT `drug_id`,`ins_code`,`drug_name`,`drug_chemical_name`,`drug_form_name`,`drug_specification`,tdp.drug_producer_name,`src_unit_name`,`is_dui`,`abbreviate_name` FROM t_drug td INNER JOIN t_drug_form tdf ON td.drug_form_id = tdf.drug_form_id INNER JOIN t_drug_producer tdp ON td.drug_producer_id = tdp.drug_producer_id INNER JOIN t_src_unit tsu ON td.src_unit_id = tsu.src_unit_id  WHERE ( td.is_del = 0 AND is_show = 1 and is_dui = 1  ) ORDER BY `drug_id` LIMIT 1,10   [ RunTime:0.0255s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000314s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000341s ]
+
+[ 2021-12-15T16:06:44+08:00 ] 127.0.0.1 /Drug/getNccList?page=1&limit=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000172s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000207s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000230s ]
+SQL: SHOW COLUMNS FROM `ncc_wuliao` [ RunTime:0.0251s ]
+SQL: SELECT * FROM `ncc_wuliao` WHERE ( enablestate = 2 AND dr = 0 AND is_liwai = 1  )  [ RunTime:0.0279s ]
+SQL: SELECT * FROM `ncc_wuliao` WHERE ( enablestate = 2 AND dr = 0 AND is_liwai = 1  ) ORDER BY `id` LIMIT 0,10   [ RunTime:0.0243s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000295s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000318s ]
+
+[ 2021-12-15T16:13:15+08:00 ] 127.0.0.1 /Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000240s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000259s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000287s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000052s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000088s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003739s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003769s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000138s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000156s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000384s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000415s ]
+
+[ 2021-12-15T16:13:15+08:00 ] 127.0.0.1 /Drug/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000196s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000226s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000253s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000054s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000079s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002749s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002773s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000092s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000108s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000202s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000221s ]
+
+[ 2021-12-15T16:13:15+08:00 ] 127.0.0.1 /Drug/getHisList?page=1&limit=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000189s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000226s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000252s ]
+SQL: SHOW COLUMNS FROM `t_drug` [ RunTime:0.0200s ]
+SQL: SELECT * FROM `t_drug` WHERE ( is_del = 0 AND is_show = 1 AND is_dui = 1  )  [ RunTime:0.0978s ]
+SQL: SHOW COLUMNS FROM `t_drug` [ RunTime:0.0192s ]
+SQL: SELECT `drug_id`,`ins_code`,`drug_name`,`drug_chemical_name`,`drug_form_name`,`drug_specification`,tdp.drug_producer_name,`src_unit_name`,`is_dui`,`abbreviate_name` FROM t_drug td INNER JOIN t_drug_form tdf ON td.drug_form_id = tdf.drug_form_id INNER JOIN t_drug_producer tdp ON td.drug_producer_id = tdp.drug_producer_id INNER JOIN t_src_unit tsu ON td.src_unit_id = tsu.src_unit_id  WHERE ( td.is_del = 0 AND is_show = 1 and is_dui = 1  ) ORDER BY `drug_id` LIMIT 1,10   [ RunTime:0.0194s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000329s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000354s ]
+
+[ 2021-12-15T16:13:16+08:00 ] 127.0.0.1 /Drug/getNccList?page=1&limit=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000157s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000193s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000212s ]
+SQL: SHOW COLUMNS FROM `ncc_wuliao` [ RunTime:0.0244s ]
+SQL: SELECT * FROM `ncc_wuliao` WHERE ( enablestate = 2 AND dr = 0 AND is_liwai = 1  )  [ RunTime:0.0254s ]
+SQL: SELECT * FROM `ncc_wuliao` WHERE ( enablestate = 2 AND dr = 0 AND is_liwai = 1  ) ORDER BY `id` LIMIT 0,10   [ RunTime:0.0239s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000341s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000369s ]
+
+[ 2021-12-15T16:13:32+08:00 ] 127.0.0.1 /Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000165s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000205s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000229s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000070s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002855s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002879s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000095s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000111s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000201s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000222s ]
+
+[ 2021-12-15T16:13:32+08:00 ] 127.0.0.1 /Drug/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000177s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000303s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000338s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000087s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002853s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002881s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000096s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000112s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000208s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000225s ]
+
+[ 2021-12-15T16:13:33+08:00 ] 127.0.0.1 /Drug/getHisList?page=1&limit=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000176s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000218s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000243s ]
+SQL: SHOW COLUMNS FROM `t_drug` [ RunTime:0.0253s ]
+SQL: SELECT * FROM `t_drug` WHERE ( is_del = 0 AND is_show = 1 AND is_dui = 1  )  [ RunTime:0.1240s ]
+SQL: SHOW COLUMNS FROM `t_drug` [ RunTime:0.0247s ]
+SQL: SELECT `drug_id`,`ins_code`,`drug_name`,`drug_chemical_name`,`drug_form_name`,`drug_specification`,tdp.drug_producer_name,`src_unit_name`,`is_dui`,`abbreviate_name` FROM t_drug td INNER JOIN t_drug_form tdf ON td.drug_form_id = tdf.drug_form_id INNER JOIN t_drug_producer tdp ON td.drug_producer_id = tdp.drug_producer_id INNER JOIN t_src_unit tsu ON td.src_unit_id = tsu.src_unit_id  WHERE ( td.is_del = 0 AND is_show = 1 and is_dui = 1  ) ORDER BY `drug_id` LIMIT 1,10   [ RunTime:0.0248s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000342s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000374s ]
+
+[ 2021-12-15T16:13:34+08:00 ] 127.0.0.1 /Drug/getNccList?page=1&limit=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000154s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000193s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000213s ]
+SQL: SHOW COLUMNS FROM `ncc_wuliao` [ RunTime:0.0250s ]
+SQL: SELECT * FROM `ncc_wuliao` WHERE ( enablestate = 2 AND dr = 0 AND is_liwai = 1  )  [ RunTime:0.0265s ]
+SQL: SELECT * FROM `ncc_wuliao` WHERE ( enablestate = 2 AND dr = 0 AND is_liwai = 1  ) ORDER BY `id` LIMIT 0,10   [ RunTime:0.0244s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000367s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000396s ]
+
+[ 2021-12-15T16:13:39+08:00 ] 127.0.0.1 /Drug/liwaiList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000177s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000272s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000307s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000073s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003033s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003074s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000098s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000115s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000212s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000232s ]
+
+[ 2021-12-15T16:13:40+08:00 ] 127.0.0.1 /Drug/getNccList?page=1&limit=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000177s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000216s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000238s ]
+SQL: SHOW COLUMNS FROM `ncc_wuliao` [ RunTime:0.0240s ]
+SQL: SELECT * FROM `ncc_wuliao` WHERE ( enablestate = 2 AND dr = 0 AND is_liwai = 1  )  [ RunTime:0.0251s ]
+SQL: SELECT * FROM `ncc_wuliao` WHERE ( enablestate = 2 AND dr = 0 AND is_liwai = 1  ) ORDER BY `id` LIMIT 0,10   [ RunTime:0.0234s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000304s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000329s ]
+
+[ 2021-12-15T16:14:13+08:00 ] 127.0.0.1 /Drug/liwaiList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000168s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000205s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000229s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000064s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002532s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002556s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000098s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000113s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000207s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000224s ]
+
+[ 2021-12-15T16:14:14+08:00 ] 127.0.0.1 /Drug/liwaiList?page=1&limit=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000193s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000220s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000243s ]
+SQL: SHOW COLUMNS FROM `ncc_wuliao` [ RunTime:0.0232s ]
+SQL: SELECT * FROM `ncc_wuliao` WHERE ( enablestate = 2 AND dr = 0 AND is_liwai = 2  )  [ RunTime:0.0233s ]
+SQL: SELECT * FROM `ncc_wuliao` WHERE ( enablestate = 2 AND dr = 0 AND is_liwai = 2  ) ORDER BY `id` LIMIT 0,10   [ RunTime:0.0232s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000321s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000344s ]
+
+[ 2021-12-15T16:15:42+08:00 ] 127.0.0.1 /Drug/liwaiList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000183s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000224s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000250s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000034s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000057s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002445s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002469s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000112s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000127s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000218s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000236s ]
+
+[ 2021-12-15T16:15:42+08:00 ] 127.0.0.1 /Drug/liwaiList?page=1&limit=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000185s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000225s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000249s ]
+SQL: SHOW COLUMNS FROM `ncc_wuliao` [ RunTime:0.0376s ]
+SQL: SELECT * FROM `ncc_wuliao` WHERE ( enablestate = 2 AND dr = 0 AND is_liwai = 2  )  [ RunTime:0.0377s ]
+SQL: SELECT * FROM `ncc_wuliao` WHERE ( enablestate = 2 AND dr = 0 AND is_liwai = 2  ) ORDER BY `id` LIMIT 0,10   [ RunTime:0.0376s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000318s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000345s ]
+
+[ 2021-12-15T16:15:49+08:00 ] 127.0.0.1 /Drug/quxiaoLiwai
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000167s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000202s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000224s ]
+SQL: SHOW COLUMNS FROM `ncc_wuliao` [ RunTime:0.0205s ]
+SQL: UPDATE `ncc_wuliao` SET `is_liwai`='1' WHERE ( code IN ('01029999') ) [ RunTime:0.0199s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000320s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000344s ]
+
+[ 2021-12-15T16:15:51+08:00 ] 127.0.0.1 /Drug/liwaiList?page=1&limit=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000164s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000207s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000230s ]
+SQL: SHOW COLUMNS FROM `ncc_wuliao` [ RunTime:0.0233s ]
+SQL: SELECT * FROM `ncc_wuliao` WHERE ( enablestate = 2 AND dr = 0 AND is_liwai = 2  )  [ RunTime:0.0239s ]
+SQL: SELECT * FROM `ncc_wuliao` WHERE ( enablestate = 2 AND dr = 0 AND is_liwai = 2  ) ORDER BY `id` LIMIT 0,10   [ RunTime:0.0238s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000296s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000319s ]
+
+[ 2021-12-15T16:15:53+08:00 ] 127.0.0.1 /Drug/quxiaoLiwai
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000164s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000199s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000222s ]
+SQL: SHOW COLUMNS FROM `ncc_wuliao` [ RunTime:0.0223s ]
+SQL: UPDATE `ncc_wuliao` SET `is_liwai`='1' WHERE ( code IN ('101003','101003') ) [ RunTime:0.0224s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000295s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000318s ]
+
+[ 2021-12-15T16:15:54+08:00 ] 127.0.0.1 /Drug/liwaiList?page=1&limit=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000166s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000201s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000224s ]
+SQL: SHOW COLUMNS FROM `ncc_wuliao` [ RunTime:0.0238s ]
+SQL: SELECT * FROM `ncc_wuliao` WHERE ( enablestate = 2 AND dr = 0 AND is_liwai = 2  )  [ RunTime:0.0237s ]
+SQL: SELECT * FROM `ncc_wuliao` WHERE ( enablestate = 2 AND dr = 0 AND is_liwai = 2  ) ORDER BY `id` LIMIT 0,10   [ RunTime:0.0233s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000302s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000325s ]
+
+[ 2021-12-15T16:54:55+08:00 ] 127.0.0.1 /Material/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000847s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000748s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000824s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000103s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013631s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013666s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000547s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000579s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000680s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000727s ]
+
+[ 2021-12-15T16:54:56+08:00 ] 127.0.0.1 /Material/getHisList?page=1&limit=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000380s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000454s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000512s ]
+SQL: SHOW COLUMNS FROM `t_material` [ RunTime:0.0259s ]
+SQL: SELECT * FROM `t_material` WHERE ( is_del = 0 AND is_show = 1 AND is_dui = 1  )  [ RunTime:0.0755s ]
+SQL: SHOW COLUMNS FROM `t_material` [ RunTime:0.0253s ]
+SQL: SELECT `material_id`,`ins_code`,`material_name`,`material_chemical_name`,`material_form_name`,`material_specification`,tdp.material_producer_name,`src_unit_name`,`is_dui`,`abbreviate_name` FROM t_material td INNER JOIN t_material_form tdf ON td.material_form_id = tdf.material_form_id INNER JOIN t_material_producer tdp ON td.material_producer_id = tdp.material_producer_id INNER JOIN t_src_unit tsu ON td.src_unit_id = tsu.src_unit_id  WHERE ( td.is_del = 0 AND is_show = 1 and is_dui = 1  ) ORDER BY `material_id` LIMIT 1,10   [ RunTime:0.0250s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000567s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000628s ]
+
+[ 2021-12-15T16:54:56+08:00 ] 127.0.0.1 /Drug/getNccList?page=1&limit=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000321s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000371s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000420s ]
+SQL: SHOW COLUMNS FROM `ncc_wuliao` [ RunTime:0.0214s ]
+SQL: SELECT * FROM `ncc_wuliao` WHERE ( enablestate = 2 AND dr = 0 AND is_liwai = 1  )  [ RunTime:0.0423s ]
+SQL: SELECT * FROM `ncc_wuliao` WHERE ( enablestate = 2 AND dr = 0 AND is_liwai = 1  ) ORDER BY `id` LIMIT 0,10   [ RunTime:0.0213s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000427s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000453s ]
+
+[ 2021-12-15T17:12:21+08:00 ] 127.0.0.1 /Material/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000397s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000536s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000069s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000105s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004060s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004089s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000317s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000338s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000449s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000469s ]
+
+[ 2021-12-15T17:12:21+08:00 ] 127.0.0.1 /Material/getHisList?page=1&limit=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000176s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000226s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000252s ]
+SQL: SHOW COLUMNS FROM `t_material` [ RunTime:0.0362s ]
+SQL: SELECT * FROM `t_material` WHERE ( is_del = 0 AND is_show = 1 AND is_dui = 1  )  [ RunTime:0.1086s ]
+SQL: SHOW COLUMNS FROM `t_material` [ RunTime:0.0346s ]
+SQL: SELECT `material_id`,`ins_code`,`material_name`,`material_chemical_name`,`material_form_name`,`material_specification`,tdp.material_producer_name,`src_unit_name`,`is_dui`,`abbreviate_name` FROM t_material td INNER JOIN t_material_form tdf ON td.material_form_id = tdf.material_form_id INNER JOIN t_material_producer tdp ON td.material_producer_id = tdp.material_producer_id INNER JOIN t_src_unit tsu ON td.src_unit_id = tsu.src_unit_id  WHERE ( td.is_del = 0 AND is_show = 1 and is_dui = 1  ) ORDER BY `material_id` LIMIT 1,10   [ RunTime:0.0358s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000325s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000350s ]
+
+[ 2021-12-15T17:12:22+08:00 ] 127.0.0.1 /Drug/getNccList?page=1&limit=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000166s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000201s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000223s ]
+SQL: SHOW COLUMNS FROM `ncc_wuliao` [ RunTime:0.0257s ]
+SQL: SELECT * FROM `ncc_wuliao` WHERE ( enablestate = 2 AND dr = 0 AND is_liwai = 1  )  [ RunTime:0.0503s ]
+SQL: SELECT * FROM `ncc_wuliao` WHERE ( enablestate = 2 AND dr = 0 AND is_liwai = 1  ) ORDER BY `id` LIMIT 0,10   [ RunTime:0.0255s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000312s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000335s ]
+
+[ 2021-12-15T17:12:38+08:00 ] 127.0.0.1 /Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000169s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000209s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000235s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000075s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015839s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015868s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000104s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000121s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000213s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000233s ]
+
+[ 2021-12-15T17:12:39+08:00 ] 127.0.0.1 /Drug/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000177s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000234s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000263s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000057s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000089s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028346s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028372s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000096s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000112s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000209s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000228s ]
+
+[ 2021-12-15T17:12:39+08:00 ] 127.0.0.1 /Drug/getHisList?page=1&limit=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000188s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000229s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000255s ]
+SQL: SHOW COLUMNS FROM `t_drug` [ RunTime:0.0194s ]
+SQL: SELECT * FROM `t_drug` WHERE ( is_del = 0 AND is_show = 1 AND is_dui = 1  )  [ RunTime:0.1022s ]
+SQL: SHOW COLUMNS FROM `t_drug` [ RunTime:0.0200s ]
+SQL: SELECT `drug_id`,`ins_code`,`drug_name`,`drug_chemical_name`,`drug_form_name`,`drug_specification`,tdp.drug_producer_name,`src_unit_name`,`is_dui`,`abbreviate_name` FROM t_drug td INNER JOIN t_drug_form tdf ON td.drug_form_id = tdf.drug_form_id INNER JOIN t_drug_producer tdp ON td.drug_producer_id = tdp.drug_producer_id INNER JOIN t_src_unit tsu ON td.src_unit_id = tsu.src_unit_id  WHERE ( td.is_del = 0 AND is_show = 1 and is_dui = 1  ) ORDER BY `drug_id` LIMIT 1,10   [ RunTime:0.0201s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000326s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000352s ]
+
+[ 2021-12-15T17:12:40+08:00 ] 127.0.0.1 /Drug/getNccList?page=1&limit=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000162s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000200s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000220s ]
+SQL: SHOW COLUMNS FROM `ncc_wuliao` [ RunTime:0.0363s ]
+SQL: SELECT * FROM `ncc_wuliao` WHERE ( enablestate = 2 AND dr = 0 AND is_liwai = 1  )  [ RunTime:0.0724s ]
+SQL: SELECT * FROM `ncc_wuliao` WHERE ( enablestate = 2 AND dr = 0 AND is_liwai = 1  ) ORDER BY `id` LIMIT 0,10   [ RunTime:0.0364s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000372s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000396s ]
+
+[ 2021-12-15T17:12:40+08:00 ] 127.0.0.1 /Material/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000203s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000300s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000328s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000068s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000100s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008097s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008135s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000151s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000168s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000242s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000260s ]
+
+[ 2021-12-15T17:12:40+08:00 ] 127.0.0.1 /Material/getHisList?page=1&limit=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000171s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000233s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000258s ]
+SQL: SHOW COLUMNS FROM `t_material` [ RunTime:0.0257s ]
+SQL: SELECT * FROM `t_material` WHERE ( is_del = 0 AND is_show = 1 AND is_dui = 1  )  [ RunTime:0.0770s ]
+SQL: SHOW COLUMNS FROM `t_material` [ RunTime:0.0254s ]
+SQL: SELECT `material_id`,`ins_code`,`material_name`,`material_chemical_name`,`material_form_name`,`material_specification`,tdp.material_producer_name,`src_unit_name`,`is_dui`,`abbreviate_name` FROM t_material td INNER JOIN t_material_form tdf ON td.material_form_id = tdf.material_form_id INNER JOIN t_material_producer tdp ON td.material_producer_id = tdp.material_producer_id INNER JOIN t_src_unit tsu ON td.src_unit_id = tsu.src_unit_id  WHERE ( td.is_del = 0 AND is_show = 1 and is_dui = 1  ) ORDER BY `material_id` LIMIT 1,10   [ RunTime:0.0254s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000325s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000355s ]
+
+[ 2021-12-15T17:12:40+08:00 ] 127.0.0.1 /Drug/getNccList?page=1&limit=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000180s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000219s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000246s ]
+SQL: SHOW COLUMNS FROM `ncc_wuliao` [ RunTime:0.0335s ]
+SQL: SELECT * FROM `ncc_wuliao` WHERE ( enablestate = 2 AND dr = 0 AND is_liwai = 1  )  [ RunTime:0.0666s ]
+SQL: SELECT * FROM `ncc_wuliao` WHERE ( enablestate = 2 AND dr = 0 AND is_liwai = 1  ) ORDER BY `id` LIMIT 0,10   [ RunTime:0.0331s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000316s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000341s ]
+
+[ 2021-12-15T17:13:14+08:00 ] 127.0.0.1 /Material/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000171s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000209s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000233s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000097s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003343s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003367s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000108s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000125s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000212s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000229s ]
+
+[ 2021-12-15T17:13:14+08:00 ] 127.0.0.1 /Material/getHisList?page=1&limit=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000177s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000225s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000249s ]
+SQL: SHOW COLUMNS FROM `t_material` [ RunTime:0.0217s ]
+SQL: SELECT * FROM `t_material` WHERE ( is_del = 0 AND is_show = 1 AND is_dui = 1  )  [ RunTime:0.0642s ]
+SQL: SHOW COLUMNS FROM `t_material` [ RunTime:0.0211s ]
+SQL: SELECT `material_id`,`ins_code`,`material_name`,`material_chemical_name`,`material_form_name`,`material_specification`,tdp.material_producer_name,`src_unit_name`,`is_dui`,`abbreviate_name` FROM t_material td INNER JOIN t_material_form tdf ON td.material_form_id = tdf.material_form_id INNER JOIN t_material_producer tdp ON td.material_producer_id = tdp.material_producer_id INNER JOIN t_src_unit tsu ON td.src_unit_id = tsu.src_unit_id  WHERE ( td.is_del = 0 AND is_show = 1 and is_dui = 1  ) ORDER BY `material_id` LIMIT 1,10   [ RunTime:0.0209s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000444s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000482s ]
+
+[ 2021-12-15T17:13:14+08:00 ] 127.0.0.1 /Drug/getNccList?page=1&limit=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000178s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000218s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000241s ]
+SQL: SHOW COLUMNS FROM `ncc_wuliao` [ RunTime:0.0249s ]
+SQL: SELECT * FROM `ncc_wuliao` WHERE ( enablestate = 2 AND dr = 0 AND is_liwai = 1  )  [ RunTime:0.0486s ]
+SQL: SELECT * FROM `ncc_wuliao` WHERE ( enablestate = 2 AND dr = 0 AND is_liwai = 1  ) ORDER BY `id` LIMIT 0,10   [ RunTime:0.0246s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000331s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000355s ]
+

@@ -1,0 +1,57 @@
+{
+  "homeInfo": {
+    "title": "药品对照",
+    "href": "/Drug/index"
+  },
+  "logoInfo": {
+    "title": "NCC 对照系统",
+    "image": "__PUBLIC__/images/logo.png",
+    "href": ""
+  },
+  "menuInfo": [
+    {
+      "title": "对照管理",
+      "icon": "fa fa-address-book",
+      "href": "",
+      "target": "_self",
+      "child": [
+        {
+          "title": "药品对照",
+          "href": "/Drug/index",
+          "icon": "fa fa-window-maximize",
+          "target": "_self"
+        },
+        {
+          "title": "NCC例外列表",
+          "href": "/Drug/liwaiList",
+          "icon": "fa fa-gears",
+          "target": "_self"
+        },
+        {
+          "title": "药品对照记录",
+          "href": "/Drug/drugList",
+          "icon": "fa fa-window-maximize",
+          "target": "_self"
+        },
+        {
+          "title": "耗材对照",
+          "href": "/Material/index",
+          "icon": "fa fa-gears",
+          "target": "_self"
+        },
+        {
+          "title": "耗材对照记录",
+          "href": "/Material/materialList",
+          "icon": "fa fa-gears",
+          "target": "_self"
+        },
+        {
+          "title": "系统设置",
+          "href": "/Index/notFound",
+          "icon": "fa fa-gears",
+          "target": "_self"
+        }
+      ]
+    }
+  ]
+}
